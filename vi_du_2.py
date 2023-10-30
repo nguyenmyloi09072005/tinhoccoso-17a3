@@ -24,3 +24,10 @@ print("**    **  **      **      **      **  **")
 print("********  ******  **      **      **  **")
 print("**    **  **      **      **      **  **")
 print("**    **  ******  ******  ******  ******")
+#bài 4
+a,b,c=map(float,input("mời nhập độ dài 3 cạnh: ").split())
+chuvi=a+b+c
+p=chuvi/2
+import math
+dientich=math.sqrt(p*(p-a)*(p-b)*(p-c))
+print("Dien tich la %.2f" %dientich)
